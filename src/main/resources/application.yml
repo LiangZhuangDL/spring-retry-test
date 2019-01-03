@@ -1,0 +1,15 @@
+server:
+  port: 6666
+spring:
+  application:
+    name: spring-retry-test
+  datasource:
+    url: jdbc:mysql://localhost:3306/retry?useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: mysql
